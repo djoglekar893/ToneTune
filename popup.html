@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ToneTune</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>ToneTune Alpha v1.0</h1>
+    <div class="settings">
+      <h2>Settings</h2>
+      <div class="setting">
+        <label for="ai-provider">AI Provider:</label>
+        <select id="ai-provider">
+          <option value="browser">Browser-based (Free)</option>
+          <option value="gemini">Google Gemini (Free Tier)</option>
+          <option value="openai">OpenAI (Free Tier)</option>
+          <option value="huggingface">Hugging Face (Free Tier)</option>
+        </select>
+      </div>
+      <div class="setting api-key-setting" style="display: none;">
+        <label for="api-key">API Key:</label>
+        <input type="password" id="api-key" placeholder="Enter your API key">
+        <div class="help-text">Only needed if using Gemini, OpenAI or Hugging Face</div>
+      </div>
+      <div class="setting">
+        <label for="improvement-level">Improvement Level:</label>
+        <select id="improvement-level">
+          <option value="light">Light (Grammar &amp; Spelling)</option>
+          <option value="medium" selected>Medium (Style &amp; Clarity)</option>
+          <option value="thorough">Thorough (Complete Rewrite)</option>
+        </select>
+      </div>
+      <div class="setting">
+        <label for="tone">Preferred Tone:</label>
+        <select id="tone">
+          <option value="professional">Professional</option>
+          <option value="friendly">Friendly</option>
+          <option value="confident">Confident</option>
+          <option value="concise">Concise</option>
+        </select>
+      </div>
+      <button id="save-settings">Save Settings</button>
+      <div id="status" class="status"></div>
+    </div>
+    <div class="instructions">
+      <h2>How to Use</h2>
+      <ol>
+        <li>Navigate to Gmail or Outlook</li>
+        <li>Compose your email</li>
+        <li>Click the "Improve with AI" button that appears in your compose window</li>
+        <li>Review and accept the suggestions</li>
+      </ol>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
