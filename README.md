@@ -1,8 +1,8 @@
-# Email Improver AI – Chrome Extension for Gmail
+# ToneTune – Chrome Extension for Gmail
 
 Latest download link can be found at https://github.com/djoglekar893/ToneTune/releases/tag/v1.0-alpha
 
-Email Improver AI is a Chrome extension that helps you write better emails in Gmail using AI. It adds an "Improve with AI" button to your email composer and rewrites your drafts with improved clarity, tone, and grammar — all tailored to your preferences.
+ToneTune is a Chrome extension that helps you write better emails in Gmail using AI. It adds an "Improve with AI" button to your email composer and rewrites your drafts with improved clarity, tone, and grammar — all tailored to your preferences.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
